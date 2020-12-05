@@ -10,3 +10,7 @@ int GetErrorSAD_16x16(const unsigned char* block1, const unsigned char *block2, 
 
 /// Compute SAD between two 8x8 blocks
 int GetErrorSAD_8x8(const unsigned char* block1, const unsigned char *block2, const int stride);
+
+
+double GetDispersion(const unsigned char* block, const int stride, const int block_size);
+int GetDispersion_16x16(const unsigned char* block, const int stride);

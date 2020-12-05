@@ -111,5 +111,12 @@ private:
                   const unsigned char* prev_Y_up,
                   const unsigned char* prev_Y_left,
                   const unsigned char* prev_Y_upleft,
-                  MEField& mvectors);
+                       MEField& mvectors);
+    
+    void BruteForce(const unsigned char* cur_Y,
+                   const unsigned char* prev_Y,
+                   const unsigned char* prev_Y_up,
+                   const unsigned char* prev_Y_left,
+                   const unsigned char* prev_Y_upleft,
+                   MEField& mvectors);
 };
